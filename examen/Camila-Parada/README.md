@@ -23,9 +23,10 @@
         <br>
         <h2> Referencias de páginas web </h2>
         <ul>
-         <li></li>
-         <li></li>
-         <li>https://www.artgalleryofballarat.com.au/</li>
+         <li> </li>
+         <li> https://numbered.com/ </li>
+         <li> https://www.artgalleryofballarat.com.au/ </li>
+         </ul>  
         <h2> Referenentes en qr </h2>
           <img src= "">
           <p> * Es necesario escanearlo para poder ingresar </p>
