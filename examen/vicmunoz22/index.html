@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <!-- lo siguiente viene de aqui https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            portafolio espa&ntilde;ol
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://img.freepik.com/foto-gratis/perrito-joven-posando-alegre_155003-28765.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://st4.depositphotos.com/14521116/31539/i/600/depositphotos_315396390-stock-photo-young-funny-jack-russell-terrier.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://st2.depositphotos.com/3378121/5193/i/450/depositphotos_51933801-stock-photo-labrador-puppies-in-a-basket.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+
+        <h1 class="Victoria">
+            Acerca de mi:
+        </h1>
+        <p>
+            Mi nombre es Victoria y soy una persona que estudia dise&ntilde;o. 
+        </p>
+        <img src="https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt-1-730x485.jpg">
+        <h1>
+            Informaci&oacute;n a visitar:
+        </h1>
+        <ul>
+            <li>
+                Rol del dise&ntilde;ador
+            </li>
+            <li>
+                Trabajos
+            </li>
+        </ul>
+        <p class="colorido">
+    La persona que practica el oficio del dise&ntilde;o recibe el nombre de dise&ntilde;ador.
+    
+    El dise&ntilde;ador ha de tomar en cuenta los aspectos est&eacute;ticos y funcionales del objeto. Para ello debe considerar las siguientes etapas:
+    
+    observar y analizar el medio en el cual se desenvuelve el individuo;
+    evaluar las necesidades del individuo que har&aacute; uso del objeto;
+    planear y proyectar a trav&eacute;s de estudios, planos y/o maquetas la forma de dar soluci&oacute;n a las necesidades identificadas,
+    ejecutar el proyecto.
+        </p>
+        <!-- la fecha fue sacada de aqui https://www.w3schools.com/tags/tag_time.asp#:~:text=The%20tag%20defines%20a,can%20produce%20smarter%20search%20results. -->
+        <p id="fecha"></p>
+        <!-- esto viene de aqui https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_image_maxwidth -->
+        <img src="https://img.freepik.com/vector-gratis/fondo-diseno-web-dibujos-animados_52683-70879.jpg">
+        <p>
+            A continuaci&oacute;n se presentar&aacute;n algunos trabajos realizados:
+        </p>
+        <h1>
+            Acceder a ellos por medio del siguiente bot&oacute;n
+        </h1>
+        <!-- esto viene de aqui https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_test -->
+        <button id="inicio">click</button>
+        <p>Buscador de informaci&oacute;n anexa:</p>
+        <!-- lo siguiente viene de aca https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_oninput -->
+
+<input type="text" id="myInput" oninput="myFunction()">
+
+<p id="demo"></p>
+<p>Adjunte su correo en caso de que necesite documentos adicionales.</p>
+<!-- esto viene de aqui https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onsubmit -->
+
+<form action="/action_page.php" onsubmit="myFunction()">
+: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+<!-- lo siguiente son codigos de regalo de profe -->
+<form id="formulario">
+    <label for="Nombre">Nombre:</label><br>
+    <input type="text" id="Nombre" name="Nombre" value="Escriba su nombre"><br>
+    <label for="Apellido">Apellido:</label><br>
+    <input type="text" id="Apellido" name="Apellido" value="Escriba su apellido"><br><br>
+    <input type="submit" value="Ingresar">
+  </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
