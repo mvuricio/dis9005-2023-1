@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            one direction albums
+        </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- fotos simultaneas en header https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow -->
+        <div class="fotosSimultaneas">
+            <div class="numeroFoto">1 / 3</div>
+            <img src="onedirection1.jpeg" style="width:100%">
+        </div>
+        <div class="fotosSimultaneas">
+            <div class="numeroFoto">2 / 3</div>
+            <img src="onedirection2.jpg" style="width:100%">
+        </div>
+        <div class="fotosSimultaneas">
+            <div class="numeroFoto">3 / 3</div>
+            <img src="onedirection3.jpg" style="width:100%">
+        </div>
+        <a class="anterior" onclick="flechaAnterior">&larr;</a>
+        <a class="siguiente" onclick="flechaDespues">&rarr;</a>
+        </div>
+        <!-- flechas izq. y derecha https://www.w3schools.com/charsets/ref_utf_arrows.asp -->
+        <br>
+        <div style="text-align: center;">
+            <span class="punto" onclick="primeraFoto"></span>
+            <span class="punto" onclick="segundaFoto"></span>
+            <span class="punto" onclick="terceraFoto"></span>
+        </div> 
+        <link rel="stylesheet" href="script.js">
+        <script src="./script.js"></script>
+    </body>
+</html>
+<!-- 3 maneras de cambiar imagenes  -->
