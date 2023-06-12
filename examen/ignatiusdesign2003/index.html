@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+    <h1>Formulario de compatibilidad con Ignatius Design</h1>
+
+    <h2>
+        Hola mundo, a continuaci&oacute;n en la bajada se
+        presentar&aacute;n casillas para rellenar con la
+        informaci&oacute;n requerida, con la cual une vez rellenada,
+        apriete el bot&oacute;n de abajo para recibir a su correo un
+        an&aacute;lisis completo en cuanto su compatibilidad en base los
+        gustos e intereses de su humilde servidor.
+      </h2>
+
+      <script>
+        function confirmInput() {
+          fname = document.forms[0].fname.value;
+          alert("Hello " + fname + "! You will now be redirected to www.w3Schools.com");
+        }
+        </script>
+        </head>
+        <body>
+        
+        <form onsubmit="confirmInput()" action="https://www.w3schools.com/">
+          Enter your name: <input id="fname" type="text" size="20">
+          <input type="submit">
+        </form>
+        
+        </body>
+</html>
