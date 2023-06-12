@@ -1,0 +1,91 @@
+body {
+    background-color:rgb(222, 253, 213); 
+}
+H1 {
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+h1 {
+    text-align: center;
+    background-color:rgb(95, 113, 62)
+  }
+
+h3 {
+    background-color: rgb(134, 150, 106);
+    color: aliceblue;
+    font-family:sans-serif
+}
+p {
+    color:darkgreen;
+    
+
+}
+a {
+    background-color:rgb(134, 150, 106);
+    color: darkgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+li {
+    color: darkolivegreen;
+    font-family: sans-serif;
+    font-size:larger;
+    background-color: rgb(249, 244, 236);
+}
+a:hover {
+    background-color:greenyellow
+  }
+  /* hover referido w3shools */
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  /* referido w3schools */
+
+div.gallery {
+  border: 1px solid #394c27;
+}
+div.gallery:hover {
+    border: 1px solid #394c27;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
