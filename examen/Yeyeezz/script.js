@@ -1,18 +1,19 @@
-let fotos = 1;
-mostrar (fotos);
-
-function masFotos(n) {
-    mostrar (fotos += n)
+function funcion(imgs) {
+    let expandir = document.getElementById("expandida");
+    let textoImg = document.getElementById("textoImg");
+    expandir.src = imgs.src;
+    textoImg.innerHTML = imgs.alt;
+    expandir.parentElement.style.display = "block";
 }
 
-function fotoActual(n) {
-    mostrar (fotos += n)
-}
+// ver el tema del style.display
 
-function mostrar(n) {
-    let i;
-    let posicion = document.getElementsByClassName("deslizar");
-    let signos = document.getElementsByClassName("puntos");
-    if (n > tamaño) {fotos = 1}
-    if (n < 1) {fotos = tamaño}
-}
+var input = document.getElementById("info");
+input.addEventListener("keypress", function(event) {
+    if (event.key == "enter") {
+        event.preventDefault();
+        document.getElementById("enviar").click;
+    }
+});
+// alerta al registrarse https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+let fila = document.querySelectorAll(".fila")
