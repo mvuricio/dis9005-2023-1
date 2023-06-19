@@ -1,7 +1,7 @@
 # solemne-02
 pantallazo de inicio de la página web
 ![pantallazo 1](./captura1.png)
-pantallazo de la pagina web antes de ser editada 
+pantallazo de la página web antes de ser editada 
 ![pantallazo 2](./captura2.png)
 Pantallazo parte 2 de la página web
 ![pantallazo 3](./captura3.png)
