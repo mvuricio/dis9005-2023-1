@@ -1,4 +1,4 @@
--En la página me enfoqué en los estilos y formatos que se le pueden dar a las imágenes, en este caso, interactuar con los tamaños y el scroll de la página, para dar una visualidad más atractiva.
+-En la página me enfoqué en los estilos y formatos que se le pueden dar a las imágenes, como por ejemplo, interactuar con los tamaños y el scroll de la página, para dar una visualidad más atractiva.
 <br>
 -También poder incluir distintos estilos en los textos, que se muestren constantemente en la pantalla, con y sin fondos detrás.
 <br>
