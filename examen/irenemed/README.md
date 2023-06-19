@@ -4,4 +4,4 @@
  
 Los siguientes pantallazos corresponden a la experimentación que realice con el codigo, para así aprender como funciona.
 
-![Fotoproceso1] (./Fotoproceso1.png)
+![Foto proceso 1](./Fotoproceso1.png)
