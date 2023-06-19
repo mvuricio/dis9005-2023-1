@@ -5,10 +5,10 @@
 -Por último incluí una cuenta atrás con JS para complementar de lo que se trata la página, en este caso, una nueva colección de ropa que saldrá pronto.
 <br><br>
 ![pantallazo 1](./1.png)
-<br><br>
+<br><br><br><br>
 ![pantallazo 2](./2.png)
-<br><br>
+<br><br><br><br>
 ![pantallazo 3](./3.png)
-<br><br>
+<br><br><br><br>
 ![pantallazo 4](./4.png)
-<br><br>
+<br><br><br><br>
