@@ -1,3 +1,17 @@
+h1{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  color: rgb(236, 16, 134);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+  color: rgb(0, 0, 0);
+ font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+ /* Codigo obtenido de  https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade*/
 .container {
     position: relative;
     width: 50%;
@@ -21,14 +35,30 @@
     transition: .5s ease;
   }
 
-  .morado {
-    background-color: #6a4cab;
+  .rojo {
+    background-color: #9e0404;
   }
 
   .naranjo {
     background-color: rgb(205, 85, 11);
   }
+
+  .rosado {
+    background-color: rgb(255, 132, 196);
+  }
   
+  .negro {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .celeste {
+    background-color: rgb(74, 207, 255);
+  }
+
+  .morado {
+    background-color: rgb(149, 74, 255);
+  }
+
   .container:hover .overlay {
     opacity: 1;
   }
@@ -42,5 +72,18 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  /* Codigo obtenido de  https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade*/
+  /* Codigo para crear gradientes obtenido desde https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear */
+  #grad1 {
+    height: 3000px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(253, 159, 217), rgb(255, 2, 145));
+  }
   
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
