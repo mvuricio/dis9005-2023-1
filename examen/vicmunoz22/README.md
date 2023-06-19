@@ -11,11 +11,11 @@ formulario para escribir nombre e información anexa
 ![pantallazo 5](./captura5.png)
 captura de index antes de ser editado
 ![pantallazo] 6(./captura6.png)
-captura de java script y sus códigos
+captura de java script y sus códigos proceso
 ![pantallazo 7](./captura7.png)
-captura de style.css
+captura de style.css proceso
 ![pantallazo 8](./captura8.png)
-captura de index editado
+captura de index editado proceso
 ![pantallazo 9](./captura9.png)
 captura de index editado parte 2
 ![pantallazo 10](./captura10.png)
