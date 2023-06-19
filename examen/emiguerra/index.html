@@ -1,96 +1,162 @@
 <!DOCTYPE html>
-<!-- para realizar esta pag web usaré como base mi solemne 02 -->
 <html>
-  <head>
-    <title>milastudio</title>
+<title>MI PORTAFOLIO</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<div class="w3-container">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* sacado de w3schools */
+.w3-sidebar {width: 120px;background: #000000;}
+/* para añadir un margen al lado izquierdo */
+#main {margin-left: 120px}
+/* sacar margenes de pantallas pequeñas */
+@media solo screen y (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+    
+<!-- menu hamburguesa -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+ <!-- foto mia como icono -->
+  <img src="imagenes/icono.JPG" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>INICIO</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>SOBRE MI</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>GALERIA</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACTAME</p>
+  </a>
+</nav>
 
-<h2>loading</h2>
-
-<div class="w3-border">
-  <div class="w3-grey" style="height:24px;width:20%"></div>
+<!-- FUENTE W3SCHOOLS -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">INICIO</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">SOBRE MI</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">GALERIA</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACTAME</a>
+  </div>
 </div>
 
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <ul>
-      <li><a href="#home">Inicio</a></li>
-      <li><a href="#news">Newsletter</a></li>
-      <li><a href="#contact">Contacto</a></li>
-      <li><a href="#about">sobre nosotros</a></li>
-    </ul>
-  </head>
-  <body>
-    <p id="fecha"></p>
-    <!-- esta base de pag esta sacada de mi solemne 1 -->
-    <h2>cachen estas zapatillas</h2>
+<!-- Page Content -->
+<div class
+<!-- encabezado -->
+<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+  <h1 class="w3-jumbo"><span class="w3-hide-small">Hola </span>Bienvenidxs</h1>
+  <p>Soy Emilia Guerra</p>
+  <img src="imagenes/inicio.jpeg" alt="boy" class="w3-image" width="992" height="1108">
+</header>
+<!-- detalles -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <h2 class="w3-text-light-grey">Diseñadora gráfica e industrial</h2>
+  <hr style="width:200px" class="w3-opacity">
+  <p> ¡Hola! Soy Emilia Guerra, una estudiante de Diseño en la Universidad Diego Portales en Chile. Con 21 años, me apasiona el arte y la creatividad. Mi enfoque principal en el diseño es utilizar herramientas como Photoshop, Illustrator y After Effects para crear diseños atractivos y visualmente armónicos. Tengo habilidades sólidas en la composición, el uso del color, la tipografía y la teoría del diseño. Mi objetivo es encontrar soluciones creativas y efectivas para comunicar mensajes claros y significativos. Estoy emocionada por seguir creciendo como diseñadora y contribuir con mi creatividad al mundo del diseño. 
+  </p>
+  <h3 class="w3-padding-16 w3-text-light-grey">Mis habilidades</h3>
+  <p class="w3-wide">Ilustración</p>
+  <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+  </div>
+  <p class="w3-wide">Diseño web</p>
+  <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+  </div>
+  <p class="w3-wide">Adobe softwares</p>
+  <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+  </div><br>
+  
+  <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">Formacion en la Universidad Diego Portales</span><br>
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">55+</span><br>
+      Proyectos de diseño gráfico
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">Dibujo</span><br>
+      análogo y digital
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">Trabajo en equipo</span><br>
+    </div>
+  </div>
+ <!-- trabajos colaborativos -->
+  <h3 class="w3-padding-24 w3-text-light-grey">Mis colaboraciones</h3>  
+  <img src=https://www.patrimoniodechile.cl/688/articles-84924_imagen_portada.thumb_i1200x560.jpg alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+  <p><span class="w3-large w3-margin-right">Teatro Municipal de Santiago</span> desde 1857</p>
+  <p>Trabajamos en conjunto para desarrollar un Mapping de la Sinfonía del Nuevo Mundo de Antonin Dvorak </p><br>
+  
+  <img src=file:///var/folders/7d/l1pt8bbn2nb6m_h8y_09b1g40000gn/T/TemporaryItems/NSIRD_screencaptureui_NbRuLy/Captura%20de%20Pantalla%202023-06-19%20a%20la(s)%2011.16.40.png alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+  <p><span class="w3-large w3-margin-right">Taller de Celebración DNO UDP</span> diseñamos una cocina modular</p>
+  <p>inauguracion 06/07 en sede Salvador Sanfuentes</p>
+</div>
+
+<!-- grilla de imag de w3schools -->
+<div class="w3-padding-64 w3-content" id="photos">
+  <h2 class="w3-text-light-grey">GALERIA</h2>
+  <hr style="width:200px" class="w3-opacity">
+  <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-half">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- grilla -->
+<div class="row"> 
+  <div class="column">
+    <img src="imagenes/port1.jpg" style="width:100%">
+    <img src="imagenes/port2.jpg" style="width:100%">
+    <img src="imagenes/port3.jpg" style="width:100%">
+    <img src="imagenes/port4.png" style="width:100%">
+    <img src="imagenes/port5.png" style="width:100%">
+    <img src="imagenes/port6.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="imagenes/port7.png" style="width:100%">
+    <img src="imagenes/port8.png" style="width:100%">
+    <img src="imagenes/port9.png" style="width:100%">
+    <img src="imagenes/port10.jpg" style="width:100%">
+  </div>  
+    </div>
+ 
+
+<!-- seccion de contacto sacada de w3schools -->
+<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <h2 class="w3-text-light-grey">CONTACTAME</h2>
+  <hr style="width:200px" class="w3-opacity">
+
+  <div class="w3-section">
+    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Santiago, Chile</p>
+    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> telefono: 9 33859247</p>
+    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: emilia.guerra@mail.udp.cl</p>
+  </div><br>
+  <p>agenda julio abierta</p>
+
+  <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
     <p>
-      En este sitio podr&aacute;s saber mas cosas de los nuevos dropps
+      <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
     </p>
-    <!-- info sacada de nike CL -->
-    <h3>¿En qu&eacute; fecha?</h3>
-    <img
-    src=https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/a79c0e88-e8e0-465c-8bad-77e299d6acfb/fecha-de-lanzamiento-de-las-nocta-hot-step-light-bone-dr0508-001.jpg
-    width="300px" height="350px">
-    <p>
-      Light Bone, Disponible el 7/6 a las 3:00 NOCTA actualiza sus
-      primeras zapatillas exclusivas con un nuevo y exótico material.
-    </p>
-    <p>Disfruto mucho descubrir todos lo futuro en zapatillas</p>
-    <h4>Es lo que hago en mi tiempo libre</h4>
-    <li>
-      Y sobre todo soñar con crear mis propios diseños en el futuro
-    </li>
-    <p>Y hacerme millonaria con eso</p>
-    <p>Mis zapatillas favoritas son las Nike Cortez</p>
-    <!-- sacado de w3schools -->
-    <h5>¡Suscribete y no te pierdas los nuevos drops!</h5>
-    <form action="/action_page.php">
-      <label for="fname">email:</label>
-      <input type="text" id="fname" name="fname" /><br /><br />
-      <label for="lname">nombre:</label>
-      <input type="text" id="lname" name="lname" /><br /><br />
-      <input type="submit" value="Submit" />
-    </form>
+  </form>
 
-    <img
-    src=https://cdn.shopify.com/s/files/1/0550/7255/5247/products/NIKECLASSICCORTEZLEATHER_1.jpg
-    width="350px" height="350px">
-    <li>
-      Les recomiendo este documental “Just for Kicks”, serie mítica de
-      la cultura sneaker
-    </li>
+</div>
 
-    <!-- accion sacada de w3schools -->
-    <h6>¿Cual es tu marca favorita?</h6>
-    <form action="/action_page.php">
-      <input
-        type="radio"
-        id="html"
-        name="fav_language"
-        value="HTML"
-      />
-      <label for="html">NIKE</label><br />
-      <input type="radio" id="css" name="fav_language" value="CSS" />
-      <label for="css">ADIDAS</label><br />
-      <input
-        type="radio"
-        id="javascript"
-        name="fav_language"
-        value="JavaScript"
-      />
-      <label for="javascript">REBOOK</label><br /><br />
-      <input type="submit" value="Submit" />
-    </form>
-
-    <img src="imag3.jpg" width="350px" height="500px" />
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
+<!-- profe tengo que ordenar mi codigo le juro que quedara increible -->
