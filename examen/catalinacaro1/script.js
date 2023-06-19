@@ -29,5 +29,23 @@ function ingresar(event) {
   document.getElementById("bienvenida").innerHTML = "ENVIADO A " + nombre.value;
 }
 
-// referido a montoyamoraga
+// referido a montoyamoraga. Profesor nos ayudo a crear la estructura js del formulario
 
+// referido W3schools modal image https://www.w3schools.com/howto/howto_css_modal_images.asp
+var modal = document.getElementById("myModal");
+
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// referido  W3schools modal image
