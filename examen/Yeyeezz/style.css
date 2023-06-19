@@ -4,19 +4,18 @@
     background: white;
     font-size: none;
 }
+
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium';
 }
 .columnas {
     float: left;
     width: 20%;
     padding: 10px;
-    display: inline;
-    cursor: pointer;
 }
 .columnas img {
     opacity: 0.8;
@@ -34,6 +33,15 @@ body {
     position: relative;
     display: none;
 }
+#textoImg {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
 /* imagenes albumes */
 
 .header {
@@ -47,11 +55,13 @@ body {
     width: 100%;
     object-fit: cover;
 }
-/* deslizar imagenes header */
+
+/* ver scroll-snap-type https://www.enmilocalfunciona.io/crear-un-carrusel-de-imagenes-solo-con-css/ */
 
 .centrado {
     text-align: center;
 }
+
 body, html {
     height: 100%;
 }
@@ -82,6 +92,7 @@ input[type=text]:focus, input[type=contrasena]:focus {
     background-color: #ddd;
     outline: none;
 }
+
 .boton {
     background-color: #04aa6d;
     color: white;
@@ -121,44 +132,4 @@ input[type=text]:focus, input[type=contrasena]:focus {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-}
-
-
-#uan {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin-top: 20px;
-}
-#tmh {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin-top: 20px;
-}
-
-#mm {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin-top: 20px;
-}
-
-#f {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin-top: 20px;
-}
-
-#mitam {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin-top: 20px;
 }
