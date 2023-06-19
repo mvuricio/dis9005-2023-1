@@ -4,3 +4,5 @@ Página de mariposas de chile, una página donde se da a conocer a través de un
 Los cambios generados de la página estan citados en css y js. 
 
 Se ocupó información e imágenes del sitio web Laderasur
+
+![captura 1](./captura1.png)
