@@ -7,6 +7,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_image
 
 <img width="929" alt="Captura de pantalla 2023-06-19 a la(s) 12 54 34" src="https://github.com/mgdalol/dis9005-2023-1/assets/128399618/41a6b7eb-6021-4dd9-a722-780742af961d">
 
+agregue un link a HBO para visualizar la serie 
+<img width="277" alt="Captura de pantalla 2023-06-19 a la(s) 12 56 42" src="https://github.com/mgdalol/dis9005-2023-1/assets/128399618/425c0fc7-aab2-4b7f-ae2a-9d8d02aaf868">
 
 
 pude alinear la pagina con div de w3school 
