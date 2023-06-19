@@ -2,4 +2,4 @@
 
 esta es mi captura
 
-![captura](./captura.png)
+![documentacion](./documentacion.png)
