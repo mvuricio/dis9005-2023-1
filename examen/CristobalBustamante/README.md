@@ -9,7 +9,7 @@ posee diferentes botones los cuales aumentan o disminuyen el tamaño de la visua
 **2.Header y Footer.**
 En cuestiones menos visibles, se agrego interactividad con el logo, por lo que ahora si presionas o clickeas la calavera del header esta te redirigirá a mi Instagram de portafolio,
 mientras que en el footer se encontrara un correo electronico clickeable el cual automaticamente abrira la aplicación de correo de tu computador o celular y te abrira una redacción
-con un asunto predeterminado.
+con un asunto predeterminado, lo unico que no se logro acá fue cambiar la apariencia del link del footer con CSS, por alguna razón ninguna modificación que hiciera se realizaba.
 
 **3.Elemento extra / cambio de color de background.**
 Para agregarle un grado de personalización a la página web se me ocurrio añadir un selector de color interactivo que alterara la gama cromatica del background, si bien el corrector de
