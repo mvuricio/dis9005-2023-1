@@ -16,3 +16,16 @@ https://www.stinkstudios.com/
 https://bepatrickdavid.com/
 https://www.freecodecamp.org/espanol/news/como-construir-tu-propio-portafolio-web-desarrollador/
 https://getbootstrap.com/docs/5.3/components/navbar/#css
+
+VISTA DESDE UN CELULAR 
+
+<img width="375" alt="1" src="https://github.com/ssofiasandoval/dis9005-2023-1/assets/128400293/79b79ac8-e4d9-4c10-a760-418b67313850">
+
+
+<img width="449" alt="2" src="https://github.com/ssofiasandoval/dis9005-2023-1/assets/128400293/da31a931-ecd6-410e-9043-74c92f0ebb07">
+
+Añadir bocetos ipad 
+
+
+
+
