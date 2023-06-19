@@ -13,7 +13,8 @@ con un asunto predeterminado, lo unico que no se logro acá fue cambiar la apari
 
 **3.Elemento extra / cambio de color de background.**
 Para agregarle un grado de personalización a la página web se me ocurrio añadir un selector de color interactivo que alterara la gama cromatica del background, si bien el corrector de
-color funciona, lamentablemente no logre relacionar el input reset con este elemento.
+color funciona, lamentablemente no logre relacionar el input reset con este elemento.(Actualización: Lo logre relacionar colocandolo dentro de <form></form> pero no tiene interactividad
+con los comandos de javascript)
 
 Computador
 ![imagen](./screenshots.jpg)
